@@ -48,7 +48,7 @@ body{
  animation-duration: 10s;
  animation-iteration-count: infinite;
 }
-
+/* animation */
 @keyframes slides-screenshot{
  0%{
   background-image: url(./img/screnshoots/4d62acb667fb.png);
