@@ -37,6 +37,33 @@ body{
  min-width: 30rem;
  height: 38rem;
 }
+.screen-shoot{
+ position: relative;
+ left: 10rem;
+ top: 1.7rem;
+ width: 16.2rem;
+ height: 35rem;
+ background-size: cover;
+ animation-name: slides-screenshot;
+ animation-duration: 10s;
+ animation-iteration-count: infinite;
+}
+
+@keyframes slides-screenshot{
+ 0%{
+  background-image: url(./img/screnshoots/4d62acb667fb.png);
+  }
+ 45%{
+  background-image: url(./img/screnshoots/94edb770accf.png);
+ }
+ 65%{
+  background-image: url(./img/screnshoots/fdfe239b7c9f.png);
+ }
+ 100%{
+  background-image: url(./img/screnshoots/4d62acb667fb.png);
+  }
+}
+
 .instagram_continue{
  display: flex;
  align-items: center;
